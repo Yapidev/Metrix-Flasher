@@ -57,6 +57,10 @@
   height: 250px;
 }
 
+.services {
+  padding: 100px 0 100px 0;
+}
+
 .services img {
   width: 250px;
   height: 400px;
@@ -89,12 +93,38 @@
 .footer {
   min-height: 60vh;
   background-color: #15181f;
-  margin-top: 150px;
+  margin-top: 100px;
 }
 
 .footer .copyright {
   padding-top: 100px;
 }
+
+/* WhatsApp Floating Button */
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.whatsapp {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 24px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  line-height: 60px;
+}
+
+.whatsapp:hover {
+  background-color: #fff;
+}
+/* WhatsApp Floating Button */
 
 @media screen and (max-width: 1200px) {
   .services img {
