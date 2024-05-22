@@ -1,151 +1,151 @@
-* {
-  font-family: "Poppins", sans-serif;
-}
+  * {
+    font-family: "Poppins", sans-serif;
+  }
 
-.navbar {
-  transition: all 0.3s ease;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-}
+  .navbar {
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+  }
 
-.navbar.scrolling-active {
-  background-color: #0d6efd;
-  padding: 15px 0 15px 0;
-}
+  .navbar.scrolling-active {
+    background-color: #0d6efd;
+    padding: 15px 0 15px 0;
+  }
 
-.navbar i {
-  color: white;
-}
+  .navbar i {
+    color: white;
+  }
 
-.navbar i:hover {
-  color: #0d6efd;
-  cursor: pointer;
-}
+  .navbar i:hover {
+    color: #0d6efd;
+    cursor: pointer;
+  }
 
-.hero {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../assets/img/hero.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 100vh;
-}
+  .hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../assets/img/hero.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+  }
 
-.hero h1 {
-  --animate-delay: 0.7s;
-}
+  .hero h1 {
+    --animate-delay: 0.7s;
+  }
 
-.hero p {
-  --animate-delay: 1.2s;
-}
+  .hero p {
+    --animate-delay: 1.2s;
+  }
 
-.hero button {
-  --animate-delay: 1.7s;
-}
+  .hero button {
+    --animate-delay: 1.7s;
+  }
 
-.about .row .col:nth-child(1) {
-  background-color: #15181f;
-}
+  .about .row .col:nth-child(1) {
+    background-color: #15181f;
+  }
 
-.about {
-  padding: 0 0 0 0;
-}
+  .about {
+    padding: 0 0 0 0;
+  }
 
-.tentang-kami {
-  padding: 100px 0 0 0;
-}
+  .tentang-kami {
+    padding: 100px 0 0 0;
+  }
 
-.projects img {
-  height: 250px;
-}
+  .projects img {
+    height: 250px;
+  }
 
-.projects {
-  padding: 100px 0 0 0;
-}
+  .projects {
+    padding: 100px 0 0 0;
+  }
 
-.services {
-  padding: 100px 0 0 0;
-}
+  .services {
+    padding: 100px 0 0 0;
+  }
 
-.services img {
-  width: 250px;
-  height: 400px;
-}
-
-.services h5 {
-  line-height: 1.8;
-  display: flex;
-  align-items: center;
-  column-gap: 10px;
-}
-
-.services i {
-  color: green;
-  font-size: 30px;
-}
-
-.faq {
-  padding-top: 100px;
-}
-
-.faq .accordion {
-  --bs-accordion-bg: #e9edc9;
-}
-
-.faq .accordion .accordion-button:focus {
-  box-shadow: none;
-}
-
-.footer {
-  min-height: 60vh;
-  background-color: #15181f;
-  margin-top: 100px;
-}
-
-.footer .copyright {
-  padding-top: 100px;
-}
-
-/* WhatsApp Floating Button */
-.whatsapp-float {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-}
-
-.whatsapp {
-  display: inline-block;
-  width: 60px;
-  height: 60px;
-  background-color: #25d366;
-  color: #fff;
-  border-radius: 50%;
-  text-align: center;
-  font-size: 24px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-  transition: all 0.3s ease;
-  line-height: 60px;
-}
-
-.whatsapp:hover {
-  background-color: #fff;
-}
-/* WhatsApp Floating Button */
-
-.navbar-brand img {
-  width: 40px; /* Sesuaikan dengan lebar yang diinginkan */
-}
-
-@media screen and (max-width: 1200px) {
   .services img {
-    width: 220px;
+    width: 250px;
+    height: 400px;
   }
-}
 
-@media screen and (max-width: 475px) {
   .services h5 {
-    font-size: 16px;
+    line-height: 1.8;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
   }
-}
+
+  .services i {
+    color: green;
+    font-size: 30px;
+  }
+
+  .faq {
+    padding-top: 100px;
+  }
+
+  .faq .accordion {
+    --bs-accordion-bg: #e9edc9;
+  }
+
+  .faq .accordion .accordion-button:focus {
+    box-shadow: none;
+  }
+
+  .footer {
+    min-height: 60vh;
+    background-color: #15181f;
+    margin-top: 100px;
+  }
+
+  .footer .copyright {
+    padding-top: 100px;
+  }
+
+  /* WhatsApp Floating Button */
+  .whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+
+  .whatsapp {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 24px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    line-height: 60px;
+  }
+
+  .whatsapp:hover {
+    background-color: #fff;
+  }
+  /* WhatsApp Floating Button */
+
+  .navbar-brand img {
+    width: 40px; /* Sesuaikan dengan lebar yang diinginkan */
+  }
+
+  @media screen and (max-width: 1200px) {
+    .services img {
+      width: 220px;
+    }
+  }
+
+  @media screen and (max-width: 475px) {
+    .services h5 {
+      font-size: 16px;
+    }
+  }
