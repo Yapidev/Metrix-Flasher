@@ -126,6 +126,10 @@
 }
 /* WhatsApp Floating Button */
 
+.navbar-brand img {
+  width: 40px; /* Sesuaikan dengan lebar yang diinginkan */
+}
+
 @media screen and (max-width: 1200px) {
   .services img {
     width: 220px;
