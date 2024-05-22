@@ -49,16 +49,24 @@
   background-color: #15181f;
 }
 
-.projects {
-  padding: 100px 0 100px 0;
+.about {
+  padding: 0 0 100px 0;
+}
+
+.tentang-kami {
+  padding: 100px 0 0 0;
 }
 
 .projects img {
   height: 250px;
 }
 
+.projects {
+  padding: 100px 0 0 0;
+}
+
 .services {
-  padding: 100px 0 100px 0;
+  padding: 100px 0 0 0;
 }
 
 .services img {
